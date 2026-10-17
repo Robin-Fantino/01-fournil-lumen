@@ -13,7 +13,7 @@ Le client souhaite une landing page qui explique le principe de la précommande 
 
 ## Pour lancer le projet
 
-Vous avez la possibilité de double cliqué sur le fichier index ou, si vous utilisez Visual Studio Code d'utiliser Go Live server.
+Télécharger le repository depuis github et puis double cliqué sur le fichier index pour ouvrir la page directement dans votre navigateur.
 
 ## Techno
 
