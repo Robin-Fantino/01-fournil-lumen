@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
 }
@@ -10,7 +12,6 @@ ul {
   list-style: none;
 }
 a {
-  text-decoration: none;
   color: inherit;
 }
 img {
@@ -31,10 +32,22 @@ img {
   --ble: #e9b949;
   --lin: #c9b8a6;
 
+  --color-main-background: var(--creme);
+  --color-main-number: var(--creme);
+  --color-secondary-background: var(--sable);
+  --color-card-background: var(--blanc);
+  --color-text: var(--brun);
+  --color-text-secondary: var(--brun-doux);
+  --color-footer-background: var(--brun);
+  --color-accent: var(--croute);
+  --color-accent-hover: var(--croute-fonce);
+  --color-badge-background: var(--ble);
+  --color-text-footer: var(--lin);
+
   /* Bordures */
-  --separateur-header: 1px solid #e6d7c3;
-  --separateur-footer: 1px solid #4a372a;
-  --separateur-carte: 1px solid #efe4d4;
+  --separator-header: 1px solid #e6d7c3;
+  --separator-footer: 1px solid #4a372a;
+  --separator-carte: 1px solid #efe4d4;
 
   /* Tailles */
   --size-h1: 3.6rem;
@@ -54,10 +67,10 @@ img {
   --font-family-serif: "Fraunces", serif;
 
   /* Espacement */
-  --espacement-section-vertical: 6.4rem;
+  --space-section-vertical: 6.4rem;
 
   /* ombre */
-  --ombre-carte: 0px 0.8rem 2.4rem rgba(var(--brun), 0.08);
+  --shadow-carte: 0px 0.8rem 2.4rem rgba(var(--brun), 0.08);
 }
 
 @media (min-width: 768px) {
@@ -71,7 +84,7 @@ img {
     --line-height-h3: 1.3;
 
     /* espacement */
-    --espacement-section-vertical: 8rem;
+    --space-section-vertical: 8rem;
   }
 }
 @media (min-width: 1024px) {
@@ -88,7 +101,7 @@ img {
     --size-text: 1.8rem;
 
     /* Espacement */
-    --espacement-section-vertical: 11.2rem;
+    --space-section-vertical: 11.2rem;
   }
 }
 
